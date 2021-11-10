@@ -31,8 +31,8 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [InlineKeyboardButton("😢 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
         
-                    InlineKeyboardButton("🎦 ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"
-                    InlineKeyboardButton("🔉 ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"
+                    InlineKeyboardButton("🎦 ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
+                    InlineKeyboardButton("🔉 ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
                 ],
                 [
                     InlineKeyboardButton(
