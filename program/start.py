@@ -14,7 +14,7 @@ from config import (
 from program import __version__
 from driver.filters import command, other_filters
 from pyrogram import Client, filters
-from pyrogram import __version__ as pyrover
+from pyrogram import __version__ as pyrover 
 from pytgcalls import (__version__ as pytover)
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
@@ -53,36 +53,36 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
+💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴠɪᴅᴇᴏ ɴᴅ ᴍᴜsɪᴄ ᴀʟsᴏ ᴏɴ ɢʀᴏᴜᴘs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ's ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴘᴏᴡᴇʀ ʙʏ ᴘʏᴛɢᴄᴀʟʟs!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **ɪ ᴀᴍ ᴘʟᴀʏ ᴍᴜ𝚜ɪᴄ ᴠᴇʀʏ ꜰᴀ𝚜ᴛ ᴀɴᴅ 𝚜ᴍᴏᴏᴛʜʟʏ.. >> ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @Attitude_king_vj!**
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+📺 ** 𝙻ᴇᴛ𝚜 𝙴ɴᴊᴏʏ 𝙲ɪɴᴇᴍᴀᴛɪᴄ 𝚅ɪᴇᴡ 𝙾ғ 𝙶ʀᴏᴜᴘ 𝚅ɪᴅᴇᴏ 𝙿ʟᴀʏᴇʀ 𝚆ɪᴛʜ 𝚈ᴏᴜʀ 𝙵ʀɪᴇɴᴅ𝚜 !**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "👨‍💻 ᴅᴇᴠʟᴏᴘᴇʀ",
+                        url="https://t.me/Attitude_king_vj"
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("😢 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🎦 ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅs", url="https://t.me/tgcalls_Music_update/13"
+                    InlineKeyboardButton("🔉 ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs", url="https://t.me/tgcalls_Music_update/13"
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "💫 ᴏꜰꜰɪᴄɪᴀʟ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "✨ 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙼𝚎 💕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
             ]
@@ -102,15 +102,15 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("✨ support", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📣 update", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
     )
 
-    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group's video chat** ❤"
+    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n👨‍💻 Dev: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group's video chat** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
