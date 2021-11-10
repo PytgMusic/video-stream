@@ -25,26 +25,26 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "👨‍💻 ᴅᴇᴠʟᴏᴘᴇʀ",
+                        url="https://t.me/Attitude_king_vj"
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
-                [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                [InlineKeyboardButton("😢 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
+        
+                    InlineKeyboardButton("🎦 ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"
+                    InlineKeyboardButton("🔉 ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "💫 ᴏꜰꜰɪᴄɪᴀʟ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "✨ 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙼𝚎 💕", url="https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
             ]
@@ -61,13 +61,13 @@ async def cbguides(_, query: CallbackQuery):
 1.) **First, add me to your group.**
 2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
 3.) **After promoting me, type /reload in group to refresh the admin data.**
-3.) **Add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.**
+3.) **Add video Assistant @{ASSISTANT_NAME} & Audio Assistant @MathixAssistant to your group or type /userbotjoin to invite her.**
 4.) **Turn on the video chat first before start to play video/music.**
 5.) **Sometimes, reloading the bot by using /reload command can help you to fix some problem.**
 
-📌 **If the userbot not joined to video chat, make sure if the video chat already turned on, or type /userbotleave then type /userbotjoin again.**
+🚨 **If the userbot not joined to video chat, make sure if the video chat already turned on, or type /userbotleave then type /userbotjoin again.**
 
-💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
+💫 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
