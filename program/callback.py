@@ -25,25 +25,26 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "👨‍💻 Devoloper", url=f"https://t.me/Attitude_king_vj"),
+                        "👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/Attitude_king_vj",
+                        
                     )
                 ],
-                [InlineKeyboardButton("😢 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
-        
-                    InlineKeyboardButton("🎦 ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
-                    InlineKeyboardButton("🔉 ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
+                [InlineKeyboardButton("😥 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
+                [
+                    InlineKeyboardButton("🤔 ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/tgcalls_Music_update/13"),
+                    InlineKeyboardButton("ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
                         "💫 ᴏꜰꜰɪᴄɪᴀʟ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "✨ 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "✨ ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙼𝚎 💕", url="https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "Support Me 💕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
             ]
