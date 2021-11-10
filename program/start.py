@@ -64,13 +64,13 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "👨‍💻 ᴅᴇᴠʟᴏᴘᴇʀ",
-                        url="https://t.me/Attitude_king_vj"
+                        url="https://t.me/Attitude_king_vj")
                     )
                 ],
                 [InlineKeyboardButton("😢 ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🎦 ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅs", url="https://t.me/tgcalls_Music_update/13",
-                    InlineKeyboardButton("🔉 ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs", url="https://t.me/tgcalls_Music_update/13",
+                    InlineKeyboardButton("🎦 ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅs", url="https://t.me/tgcalls_Music_update/13"),
+                    InlineKeyboardButton("🔉 ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs", url="https://t.me/tgcalls_Music_update/13"),
                 ],
                 [
                     InlineKeyboardButton(
